@@ -1,0 +1,151 @@
+/*! v1.0.0 */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif; }
+
+body {
+  position: relative;
+  font-size: 18px; }
+
+ul,
+ul li {
+  list-style: none; }
+
+ol {
+  margin-left: 20px; }
+
+ol li {
+  margin-bottom: 20px; }
+
+header {
+  -moz-box-align: center;
+  -moz-box-direction: normal;
+  -moz-box-orient: horizontal;
+  -moz-box-pack: justify;
+  align-items: center;
+  background-color: #dff7fa;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2% 3%; }
+
+.flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex; }
+
+p {
+  margin-bottom: 15px; }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+#section-block {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 0; }
+
+.menu {
+  background-color: #00bcd6;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  width: 100%; }
+  .menu.order .item-2 {
+    order: -1; }
+
+.header {
+  width: 100%; }
+
+.menu li {
+  padding: 15px;
+  margin: 5px;
+  background-color: #fff; }
+
+.card-box {
+  flex-wrap: wrap; }
+  .card-box img {
+    width: 100%;
+    height: 300px; }
+  .card-box li {
+    width: 33.333%;
+    padding: 0 5px; }
+
+.flex-justify {
+  justify-content: center; }
+
+.alin-item {
+  align-items: flex-start; }
+  .alin-item h2 {
+    display: flex;
+    align-items: flex-start; }
+  .alin-item li {
+    background-color: #fde4ec;
+    width: 30%;
+    padding: 10px;
+    margin: 5px; }
+
+.alin-content {
+  align-content: flex-start; }
+  .alin-content li {
+    background-color: #fde4ec;
+    width: 30%;
+    padding: 10px;
+    margin: 5px; }
+
+.page {
+  align-items: center;
+  background-color: #f3e5f5;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0;
+  min-height: 300px;
+  width: 100%; }
+  .page div {
+    background-color: #9d1bb2;
+    width: 20%;
+    border-radius: 3px;
+    padding: 10px; }
+  .page .left {
+    align-self: stretch; }
+  .page .right {
+    align-self: center; }
+  .page .mid {
+    align-self: flex-end; }
+  .page.fx-grow div {
+    margin: 5px; }
+  .page.fx-grow .left {
+    flex-grow: 1; }
+  .page.fx-shrink div {
+    width: 33.333%;
+    margin: 4px; }
+  .page.fx-shrink .left {
+    flex-shrink: 1; }
+  .page.fx-basis div {
+    width: 200px;
+    margin: 4px; }
+  .page.fx-basis .mid {
+    flex-basis: 50px; }
+  .page.fx {
+    justify-content: flex-start; }
+    .page.fx div {
+      align-self: start;
+      margin: 4px;
+      flex: 0 1 200px; }
+
+/*# sourceMappingURL=main.css.map*/
