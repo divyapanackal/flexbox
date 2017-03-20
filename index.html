@@ -13,23 +13,309 @@
       <h1>Flexbox Properties</h1>
     </header>
     <section id="section-block">
-      <ol>
-        <li><a href="f1.html">flex-direction</a></li>
-        <li><a href="f1.html">flex-wrap</a></li>
-        <li><a href="f1.html">flex-flow</a></li>
-        <li><a href="f1.html">justify-content</a></li>
-        <li><a href="f1.html">align-items</a></li>
-        <li><a href="f1.html">align-content</a></li>
-        <li><a href="f1.html">order</a></li>
-        <li><a href="f1.html">align-self</a></li>
-        <li><a href="f1.html">flex-grow</a></li>
-        <li><a href="f1.html">flex-shrink</a></li>
-        <li><a href="f1.html">flex-basis</a></li>
-        <li><a href="f1.html">flex</a></li>
-      </ol>
+      <ul class="main-menu" id="tabs">
+        <li><a href="#f1" class="selected">flex-direction</a></li>
+        <li><a href="#f2">flex-wrap</a></li>
+        <li><a href="#f3">flex-flow</a></li>
+        <li><a href="#f4">justify-content</a></li>
+        <li><a href="#f5">align-items</a></li>
+        <li><a href="#f6">align-content</a></li>
+        <li><a href="#f7">order</a></li>
+        <li><a href="#f8">align-self</a></li>
+        <li><a href="#f9">flex-grow</a></li>
+        <li><a href="#f10">flex-shrink</a></li>
+        <li><a href="#f11">flex-basis</a></li>
+        <li><a href="#f12">flex</a></li>
+      </ul>
     </section>
-    <footer>
-    </footer>
+    <section class="container block-1 tabContent" id="f1">
+      <header>
+        <h2>1.The flex-direction Property</h2>
+      </header>
+      <p>row | row-reverse | column | column-reverse</p>
+      <div class="header flex">
+        <ul class="flex menu">
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </section>
+    <section class="container page-box tabContent hide" id="f2">
+      <header>
+        <h2>2.The flex-wrap Property</h2>
+      </header>
+      <p>nowrap | wrap | wrap-reverse</p>
+      <div class="flex">
+        <ul class="flex card-box">
+          <li><img src="/src/images/images-1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </li>
+          <li><img src="/src/images/images-2.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </li>
+          <li><img src="/src/images/images-3.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+          </li>
+          <li><img src="/src/images/images-1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis t occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </li>
+          <li><img src="/src/images/images-1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duiteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </li>
+          <li><img src="/src/images/images-2.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. m.</p>
+          </li>
+          <li><img src="/src/images/images-3.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequ</p>
+          </li>
+          <li><img src="/src/images/images-1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.epteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="container page-box tabContent hide" id="f3">
+      <header>
+        <h2>3.The flex-flow Property</h2>
+      </header>
+      <p><'flex-direction'> <'flex-wrap'></p>
+      <div class="flex">
+        <ul class="flex card-box">
+          <li><img src="/src/images/images-1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </li>
+          <li><img src="/src/images/images-2.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </li>
+          <li><img src="/src/images/images-3.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+          </li>
+          <li><img src="/src/images/images-1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis t occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </li>
+          <li><img src="/src/images/images-1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duiteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </li>
+          <li><img src="/src/images/images-2.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. m.</p>
+          </li>
+          <li><img src="/src/images/images-3.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequ</p>
+          </li>
+          <li><img src="/src/images/images-1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.epteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="container page-box tabContent hide" id="f4">
+      <header>
+        <h2>4.The justify-content Property</h2>
+      </header>
+      <p>flex-start | flex-end | center | space-between | space-around</p>
+      <div class="header flex">
+        <ul class="flex menu flex-justify">
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </section>
+    <section class="container page-box tabContent hide" id="f5">
+      <header>
+        <h2>5.The align-items Property</h2>
+      </header>
+      <p>flex-start | flex-end | center | baseline | stretch</p>
+      <div class="flex">
+        <ul class="flex card-box alin-item">
+          <li><img src="/src/images/images-1.jpg" alt="">
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </li>
+          <li><img src="/src/images/images-2.jpg" alt="">
+            <h2>Lorem ipsum dolor sit amet consectetur adi</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="container page-box tabContent hide" id="f6">
+      <header>
+        <h2>6.The align-content Property</h2>
+      </header>
+      <p>flex-start | flex-end | center | space-between | space-around | stretch</p>
+      <div class="flex">
+        <ul class="flex card-box alin-content">
+          <li><img src="/src/images/images-1.jpg" alt="">
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </li>
+          <li><img src="/src/images/images-2.jpg" alt="">
+            <h2>Lorem ipsum dolor sit amet consectetur adi</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </li>
+          <li><img src="/src/images/images-1.jpg" alt="">
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </li>
+          <li><img src="/src/images/images-2.jpg" alt="">
+            <h2>Lorem ipsum dolor sit amet consectetur adi</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </li>
+          <li><img src="/src/images/images-1.jpg" alt="">
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </li>
+          <li><img src="/src/images/images-2.jpg" alt="">
+            <h2>Lorem ipsum dolor sit amet consectetur adi</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </li>
+          <li><img src="/src/images/images-1.jpg" alt="">
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </li>
+          <li><img src="/src/images/images-2.jpg" alt="">
+            <h2>Lorem ipsum dolor sit amet consectetur adi</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="container page-box tabContent hide" id="f7">
+      <header>
+        <h2>7.The order Property</h2>
+      </header>
+      <p>&lt;integer&gt;</p>
+      <div class="header flex">
+        <ul class="flex menu order">
+          <li class="item-1">Home</li>
+          <li class="item-2">About</li>
+          <li class="item-3">Contact</li>
+        </ul>
+      </div>
+    </section>
+    <section class="container page-box tabContent hide" id="f8">
+      <header>
+        <h2>8.The align-self Property</h2>
+      </header>
+      <p>auto | flex-start | flex-end | center | baseline | stretch</p>
+      <div class="page">
+        <div class="left">
+          <h3>CSS Absolute Center</h3>
+          <p>I’m some text in a centered block element.</p>
+          <p>I’m centered both horizontally and vertically</p>
+        </div>
+        <div class="mid">
+          <h3>CSS Absolute Center</h3>
+          <p>I’m some text in a centered block element.</p>
+          <p>I’m centered both horizontally and vertically</p>
+        </div>
+        <div class="right">
+          <h3>CSS Absolute Center</h3>
+          <p>I’m some text in a centered block element.</p>
+          <p>I’m centered both horizontally and vertically</p>
+        </div>
+      </div>
+    </section>
+    <section class="container page-box tabContent hide" id="f9">
+      <header>
+        <h2>9.The flex-grow Property</h2>
+      </header>
+      <p>&lt;number&gt;</p>
+      <div class="page fx-grow">
+        <div class="left">
+          <h3>CSS Absolute Center</h3>
+          <p>I’m some text in a centered block element.</p>
+          <p>I’m centered both horizontally and vertically</p>
+        </div>
+        <div class="mid">
+          <h3>CSS Absolute Center</h3>
+          <p>I’m some text in a centered block element.</p>
+          <p>I’m centered both horizontally and vertically</p>
+        </div>
+        <div class="right">
+          <h3>CSS Absolute Center</h3>
+          <p>I’m some text in a centered block element.</p>
+          <p>I’m centered both horizontally and vertically</p>
+        </div>
+      </div>
+    </section>
+    <section class="container page-box tabContent hide" id="f10">
+      <header>
+        <h2>10.The flex-shrink Property</h2>
+      </header>
+      <p>&lt;number&gt;</p>
+      <div class="page fx-shrink">
+        <div class="left">
+          <h3>CSS Absolute Center</h3>
+          <p>I’m some text in a centered block element.</p>
+          <p>I’m centered both horizontally and vertically</p>
+        </div>
+        <div class="mid">
+          <h3>CSS Absolute Center</h3>
+          <p>I’m some text in a centered block element.</p>
+          <p>I’m centered both horizontally and vertically</p>
+        </div>
+        <div class="right">
+          <h3>CSS Absolute Center</h3>
+          <p>I’m some text in a centered block element.</p>
+          <p>I’m centered both horizontally and vertically</p>
+        </div>
+      </div>
+    </section>
+    <section class="container page-box tabContent hide" id="f11">
+      <header>
+        <h2>11.The flex-basis Property</h2>
+      </header>
+      <p>&lt;number&gt;</p>
+      <div class="page fx-basis">
+        <div class="left">
+          <h3>CSS Absolute Center</h3>
+          <p>I’m some text in a centered block element.</p>
+          <p>I’m centered both horizontally and vertically</p>
+        </div>
+        <div class="mid">
+          <h3>CSS Absolute Center</h3>
+          <p>I’m some text in a centered block element.</p>
+          <p>I’m centered both horizontally and vertically</p>
+        </div>
+        <div class="right">
+          <h3>CSS Absolute Center</h3>
+          <p>I’m some text in a centered block element.</p>
+          <p>I’m centered both horizontally and vertically</p>
+        </div>
+      </div>
+    </section>
+    <section class="container page-box tabContent hide" id="f12">
+      <header>
+        <h2>12.The flex Property</h2>
+      </header>
+      <p>none | [
+        < 'flex-grow'>
+          < 'flex-shrink'>? ||
+            < 'flex-basis'> ]</p>
+      <div class="page fx">
+        <div class="left">
+          <h3>CSS Absolute Center</h3>
+          <p>I’m some text in a centered block element.</p>
+          <p>I’m centered both horizontally and vertically</p>
+        </div>
+        <div class="mid">
+          <h3>CSS Absolute Center</h3>
+          <p>I’m some text in a centered block element.</p>
+          <p>I’m centered both horizontally and vertically</p>
+        </div>
+        <div class="right">
+          <h3>CSS Absolute Center</h3>
+          <p>I’m some text in a centered block element.</p>
+          <p>I’m centered both horizontally and vertically</p>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+  </footer>
   </div>
   <script src="build/bundle.js"></script>
 </body>
